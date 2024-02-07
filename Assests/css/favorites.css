@@ -1,0 +1,54 @@
+body{
+ background-color: rgb(231, 231, 255);
+}
+
+.titulo {
+    color: rgb(8, 92, 167);
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.paragrafo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(40, 56, 202, 0.719);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 243, 89);
+    padding: 20px;
+    width: 525px;
+    margin: 15px auto;
+    border-radius: 1rem;
+
+}
+
+.lista{
+
+    color: rgb(25, 29, 241);
+    font-size: 1.0rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(176, 194, 243);
+}
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(233, 250, 158);
+    border: rgb(213, 238, 104) ;
+    border-radius: 0.8rem;
+    box-shadow: none;
+    padding: 8px;
+    margin: 5px auto;
+    transition: background-color 0.8s ease;
+}
+
+button:hover{
+   background-color:rgba(131, 142, 241, 0.719) ;
+}
